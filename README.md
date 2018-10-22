@@ -1,0 +1,1 @@
+This is a minimal repro for https://github.com/vshaxe/hxcpp-debugger/issues/13

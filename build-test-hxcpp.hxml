@@ -1,0 +1,9 @@
+-cp src
+-lib hxcpp
+
+# VSCode debugger
+-lib hxcpp-debug-server
+
+-main pong.Main
+-debug
+-cpp bin/cpp
