@@ -1,1 +1,10 @@
+# This is a manually-created stub hxml.
+
+# HACK: This path is Windows-specific, doesn't handle custom extension directories, and includes the vshaxe.hxcpp-debugger version.
+# - The path is Windows-specific because the ~ syntax is not supported in lix for Windows.
+# - The version is included because hxcpp-debug-server is not hosted on the haxelib server, but a local haxelib installed by the
+#   extension (and probably version-locked to the extension).
 -cp ${USERPROFILE}/.vscode/extensions/vshaxe.hxcpp-debugger-1.1.0/hxcpp-debug-server
+
+# From extraParams.hxml
+--macro hxcpp.debug.jsonrpc.Macro.injectServer()
